@@ -39,6 +39,20 @@ ul {
 a {
     text-decoration: none;
 }
+
+p {
+    color: #50554d;
+}
+
+h2 {
+    color: #798b0fd9;
+  }
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 `;
 
 export default GlobalStyles;

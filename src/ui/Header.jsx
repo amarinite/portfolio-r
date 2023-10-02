@@ -11,14 +11,20 @@ const StyledHeader = styled.header`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 `;
 
+const MyName = styled.p`
+  font-weight: 600;
+  font-size: 2rem;
+`;
+
 const NavUl = styled.ul`
   display: flex;
+  gap: 2rem;
 `;
 
 function Header() {
   return (
     <StyledHeader>
-      <div>Alba Mar</div>
+      <MyName>Alba Mar</MyName>
       <nav>
         <NavUl>
           <li>Home</li>
